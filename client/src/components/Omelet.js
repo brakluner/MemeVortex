@@ -19,7 +19,7 @@ class Omelet extends Component {
 
     getMemeTable = memes => {
         API.getMemes(memes)
-            .then(res => this.setState({ result: res.data.memes
+            .then(res => this.setState({ result: res.data.memes[0].url
                                         }))
             .catch(err => console.log(err));
     };
