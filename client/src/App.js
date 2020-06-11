@@ -1,7 +1,7 @@
 import React from "react";
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import InfiniteScroll from 'react-infinite-scroll-component';
-import Route from 'react-router-dom/Route';
+// import Route from 'react-router-dom/Route';
 import Omelet from './components/Omelet';
 import { getFromStorage, setInStorage } from '../src/utils/storage';
 
