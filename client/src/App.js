@@ -256,6 +256,7 @@ if (!token) {
               <p>{signInError}</p>
             ) : (null)
           }
+          <form className="form-signin">
           <p>Sign In</p>
           <label for="inputEmail" className="sr-only">Email Address</label>
           <input 
@@ -278,6 +279,7 @@ if (!token) {
           />
           <br />
           <button onClick={this.onSignIn}>Sign In</button>
+          </form>
       </div>
       <br />
       <br />
@@ -287,6 +289,7 @@ if (!token) {
               <p>{signUpError}</p>
             ) : (null)
           }
+        <form className="form-signin">
         <p>Sign Up</p>
         <label for="inputFirstName" className="sr-only">First Name</label>
         <input 
@@ -325,6 +328,7 @@ if (!token) {
         onChange={this.onTextboxChangeSignUpPassword} 
         /><br />
         <button onClick={this.onSignUp}>Sign Up</button>
+        </form>
       </div>
     </div>
   )
