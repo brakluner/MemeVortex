@@ -249,8 +249,8 @@ if (isLoading) {
 
 if (!token) {
   return (
-    <div>
-      <div>
+    <div className="row">
+      <div className="col-4">
           {
             (signInError) ? (
               <p>{signInError}</p>
@@ -281,9 +281,10 @@ if (!token) {
           <button onClick={this.onSignIn}>Sign In</button>
           </form>
       </div>
-      <br />
-      <br />
-      <div>
+      <div className='col-4'>
+        <h1>MEME VORTEX</h1>
+      </div>
+      <div className='col-4'>
       {
             (signUpError) ? (
               <p>{signUpError}</p>
