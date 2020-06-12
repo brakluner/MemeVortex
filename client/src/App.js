@@ -257,14 +257,20 @@ if (!token) {
             ) : (null)
           }
           <p>Sign In</p>
+          <label for="inputEmail" className="sr-only">Email Address</label>
           <input 
+          id='inputEmail'
+          className="form-control"
           type="email" 
           placeholder="Email" 
           value={signInEmail}
           onChange={this.onTextboxChangeSignInEmail}
           />
           <br />
+          <label for="inputPassword" className="sr-only">Password</label>
           <input 
+          id="inputPassword"
+          className="form-control"
           type="password" 
           placeholder="Password" 
           value={signInPassword} 
@@ -282,25 +288,37 @@ if (!token) {
             ) : (null)
           }
         <p>Sign Up</p>
+        <label for="inputFirstName" className="sr-only">First Name</label>
         <input 
+        className="form-control"
+        id="inputFirstName"
         type="text" 
         placeholder="First Name" 
         value={signUpFirstName}
         onChange={this.onTextboxChangeSignUpFirstName}
         /><br />
+        <label for="inputLastName" className="sr-only">Last Name</label>
         <input 
+        className="form-control"
+        id="inputLastName"
         type="text" 
         placeholder="Last Name"
         value={signUpLastName}
         onChange={this.onTextboxChangeSignUpLastName} 
         /><br />
+        <label for="inputEmail" className="sr-only">Email Address</label>
         <input 
+        className="form-control"
+        id="inputEmail"
         type="email" 
         placeholder="Email" 
         value={signUpEmail}
         onChange={this.onTextboxChangeSignUpEmail}
         /><br />
-        <input 
+        <label for="inputPassword" className="sr-only">Password</label>
+        <input
+        className="form-control"
+        id="inputPassword"
         type="password" 
         placeholder="Password"
         value={signUpPassword}
