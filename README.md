@@ -1,3 +1,1 @@
-Memevortex is a tool for scouring meme templates and then using them to make your memes. Will include space for saving and sharing templates.
-
-As it stands the app mostly serves as an example of a working login authentication procedure for react.
+Memevortex is a full-stack web application that uses MongoDB to authenticate user and save session details. The "Meme" portion currently is just comprised of a meme api, but for future development, I want to add additional components and pages with will allow for saving and manipulating memes quickly.
